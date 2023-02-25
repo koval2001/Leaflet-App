@@ -15,7 +15,6 @@ const AddMarker = ({ position, setPosition, setFormShown }) => {
     click: (e) => {
       setPosition(e.latlng); // 👈 add marker
       setFormShown(true);
-      console.log(e.latlng);
       /* CODE TO ADD NEW PLACE TO STORE (check the source code) */
     },
   });
