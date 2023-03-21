@@ -3,6 +3,7 @@ export interface HotChocolate {
     englishProductName: string;
     vendor: string;
     location: string;
+    // TODO: use type from leaflet
     lat: number;
     lon: number;
     description?: string;

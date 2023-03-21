@@ -22,6 +22,7 @@ const AddMarker = ({ position, setPosition, setFormShown }) => {
   return position === null ? null : (<Marker icon={icon} position={position}></Marker>);
 };
 
+// TODO: use interfaces
 AddMarker.propTypes = {
   // TODO: fix prop-types
   position: PropTypes.any,
